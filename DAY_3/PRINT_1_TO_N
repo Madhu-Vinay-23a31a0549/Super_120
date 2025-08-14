@@ -1,0 +1,7 @@
+def recu(value):
+    if value==0:
+        return
+    print(value)
+    recu(value-1)
+    print(value)
+recu(10)
